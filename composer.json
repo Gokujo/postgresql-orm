@@ -4,6 +4,7 @@
     "description": "PostgreSQL ORM Class for plain uses without models",
     "keywords": ["postgresql","postgres","psql","pdo","orm","class"],
     "homepage": "https://github.com/Gokujo/postgresql-orm",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -24,6 +25,9 @@
     "autoload": {
         "psr-0": {
             "PostgreSQL": "classes"
-        }
+        },
+        "files": [
+            "classes/PostgreSQL.php"
+        ]
     }
 }

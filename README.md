@@ -1,9 +1,16 @@
+![PHP Version](https://img.shields.io/packagist/php-v/maharder/postgresql-orm)![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Gokujo/postgresql-orm)![GitHub release (latest by date)](https://img.shields.io/github/v/release/Gokujo/postgresql-orm)
 
 ***
 
-# Documentation
+# PostgreSQL ORM Class
 
-This is an automatically generated documentation for **Documentation**.
+I was looking for a class that works with postgres but doesn't required to create and manage models. Only for transactions. 
+
+This class uses the PHP PDO connection, so you have to enable `pdo_pgsql` in your php.ini. While I was writing this class I used PHP version 7.2. I recommend this version or a higher one.
+
+It was my first commit to packagist so if some issues are encountered please let me know.
+
+# Documentation
 
 ## Namespaces
 
@@ -37,5 +44,6 @@ Run
 composer require maharder/postgresql-orm
 ```
 
+Now you can use the class
+
 ***
-> Automatically generated from source code comments on 2022-05-13 using [phpDocumentor](http://www.phpdoc.org/) and [saggre/phpdocumentor-markdown](https://github.com/Saggre/phpDocumentor-markdown)

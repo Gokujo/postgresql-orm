@@ -1,7 +1,7 @@
 <?php
 
 //
-// Author: Maxim Harder (dev@devcraft.club) (c) 2021
+// Author: Maxim Harder (dev@devcraft.club) (c) 2021-2022
 // Project: PostrgeSQL ORM Class
 // File: PostgreSQL.php
 // Desc: PDO PostreSQL Class
