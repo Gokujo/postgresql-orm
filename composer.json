@@ -19,7 +19,7 @@
         "saggre/phpdocumentor-markdown": "^0.1.3"
     },
     "scripts": {
-        "create-docs": "php ./phpDocumentor.phar -d ./src -t ./classes --template=./vendor/saggre/phpdocumentor-markdown/themes/markdown"
+        "create-docs": "php ./phpDocumentor.phar -d ./classes -t ./docs --template=./vendor/saggre/phpdocumentor-markdown/themes/markdown"
     },
     "autoload": {
         "psr-0": {
