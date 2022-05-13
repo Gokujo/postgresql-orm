@@ -23,7 +23,9 @@ $postgresql = new PostgreSQL('database', 'user', 'password', 'localhost', 5432);
 
 ### Standalone
 
-Either you include it with `include_once` or call a use for it `use MaHarder\classes\PostgreSQL;`
+Download latest release and extract it.
+
+Either you include it with `include_once (__DIR__ . '/classes/PostgreSQL.php);` or call a use for it `use MaHarder\classes\PostgreSQL;`
 
 If you change the paths, so use the include
 
