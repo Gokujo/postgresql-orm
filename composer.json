@@ -1,0 +1,29 @@
+{
+    
+    "name": "maharder/postgresql-orm",
+    "description": "PostgreSQL ORM Class for plain uses without models",
+    "keywords": ["postgresql","postgres","psql","pdo","orm","class"],
+    "homepage": "https://github.com/Gokujo/postgresql-orm",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Harder",
+            "email": "dev@devcraft.club",
+            "homepage": "https://devcraft.club"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "saggre/phpdocumentor-markdown": "^0.1.3"
+    },
+    "scripts": {
+        "create-docs": "php ./phpDocumentor.phar -d ./src -t ./classes --template=./vendor/saggre/phpdocumentor-markdown/themes/markdown"
+    },
+    "autoload": {
+        "psr-0": {
+            "PostgreSQL": "classes"
+        }
+    }
+}
