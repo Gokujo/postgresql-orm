@@ -252,9 +252,9 @@ public fetch(string $table, array $select, array $params = ['where' => ['query' 
 | `$select` | **array** | List of DB columns of the table, default: * |
 | `$params` | **array** | Predefined array of parameters for custom selects|
 | `$params['where']` | **array** | Array of parameteres for where clause |
-| `$params['query']` | **array&#124;string** | Custom raw sql select (where clause) array of strings or a single string, use without &#039;WHERE&#039; |
-| `$params['arr']` | **array** | Array of where keys and these values |
-| `$params['arr_param']` | **string** | Binder of multiple where array, default: AND |
+| `$params['where']['query']` | **array&#124;string** | Custom raw sql select (where clause) array of strings or a single string, use without &#039;WHERE&#039; |
+| `$params['where']['arr']` | **array** | Array of where keys and these values |
+| `$params['where']['arr_param']` | **string** | Binder of multiple where array, default: AND |
 | `$params['order']` | **array** | Array of ORDER by statement, use this way: &#039;name&#039; =&gt; &#039;SORT value&#039;, eg. &#039;date&#039; =&gt; &#039;ASC&#039; |
 | `$params['limit']` | **int&#124;string** | Either ALL or an Integer to limit output, no use if ORDER is empty |
 | `$params['offset']` | **int** | Skips first X entries, no use if ORDER is empty |
